@@ -1,0 +1,19 @@
+[
+    {
+        "titulo":"Titulo",
+        "origen":"Variacion de ...",
+        "moderador":"No",
+        "cantidad":"2",
+        "equipos":"No",
+        "duracion":"Corta",
+        "tipo":"Español",
+        "monto":"24",
+        "instrucciones":[
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ]
+    }
+    ]
