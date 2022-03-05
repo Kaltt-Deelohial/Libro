@@ -15,5 +15,22 @@
             "D",
             "E"
         ]
+    },
+    {
+        "titulo": "Titulo2",
+        "origen": "Variacion de .....",
+        "moderador": "Nooo",
+        "cantidad": "22",
+        "equipos": "No00",
+        "duracion": "Cortaaa",
+        "tipo": "Español...",
+        "monto": "245",
+        "instrucciones": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ]
     }
 ]
