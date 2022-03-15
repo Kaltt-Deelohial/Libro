@@ -1,9 +1,17 @@
-let opciones = [];
 async function Cargar() {
-    let res = await fetch(
-        "https://github.com/Kaltt-Deelohial/Libro/blob/main/juegos.json", 
-        {mode: 'no-cors'});
-    //opciones = await res.json("");
-    console.log(opciones);
+    const url = "https://github.com/Kaltt-Deelohial/Libro/blob/main/juegos.json";
+    let opciones;
+    fetch(url, {mode: 'no-cors'})
+        .then(res => opciones = res);
+
+    if(opciones == null){
+        console.log("ESTA MUERTO");
+    }
+
+    console.log(JSON.stringify(opciones));
     document.getElementById("opciones").innerHTML = opciones;
+}
+
+function TirarDados(){
+
 }
